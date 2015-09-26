@@ -14,7 +14,7 @@ label {
 }
 
 .form-control,
-input[type="text"],
+input[type="text"]:not('select2-input'),
 input[type="password"],
 input[type="email"],
 input[type="number"],
